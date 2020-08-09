@@ -27,6 +27,8 @@ public class Main {
     }
 
     public static int getMaxNumber(int oneParam, int twoParam) {
+        //задача решается и результат достигается
+        //предлагаю в качестве дополнительной задачи подумать над возможным сокращением кода без потери читабельности
         int max = oneParam;
         if (oneParam < twoParam) {
             max = twoParam;
@@ -35,6 +37,8 @@ public class Main {
     }
 
     public static boolean isCharA(char param) {
+         //задача решается и результат достигается
+        //предлагаю в качестве дополнительной задачи подумать над возможным сокращением кода без потери читабельности
         boolean result = false;
         if (param == 'A') {
             result = true;
@@ -43,6 +47,8 @@ public class Main {
     }
 
     public static boolean isCharNumber(char param) {
+         //задача решается и результат достигается
+        //предлагаю в качестве дополнительной задачи подумать над возможным сокращением кода без потери читабельности
         boolean result = false;
         if (Character.isDigit(param)) {
             result = true;
@@ -51,6 +57,8 @@ public class Main {
     }
 
     public static void cycleBin() {
+         //задача решается и результат достигается
+        //предлагаю в качестве дополнительной задачи подумать над возможным сокращением кода без потери читабельности
         for (int i = 0; i <= 30; i++) {
             System.out.print(Integer.toBinaryString(i) + " ");
         }
@@ -63,11 +71,15 @@ public class Main {
     }
 
     public static int codeChar(char param) {
+         //задача решается и результат достигается
+        //предлагаю в качестве дополнительной задачи подумать над возможным сокращением кода без потери читабельности
         int code = param;
         return code;
     }
 
     public static char deCodeChar(int param) {
+         //задача решается и результат достигается
+        //предлагаю в качестве дополнительной задачи подумать над возможным сокращением кода без потери читабельности
         char deCode = (char) param;
         return deCode;
     }
