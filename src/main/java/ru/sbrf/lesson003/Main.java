@@ -35,19 +35,11 @@ public class Main {
     }
 
     public static boolean isCharA(char param) {
-        boolean result = false;
-        if (param == 'A') {
-            result = true;
-        }
-        return result;
+        return param == 'A';
     }
 
     public static boolean isCharNumber(char param) {
-        boolean result = false;
-        if (Character.isDigit(param)) {
-            result = true;
-        }
-        return result;
+        return Character.isDigit(param);
     }
 
     public static void cycleBin() {
@@ -68,7 +60,6 @@ public class Main {
     }
 
     public static char deCodeChar(int param) {
-        char deCode = (char) param;
-        return deCode;
+        return (char) param;
     }
 }
