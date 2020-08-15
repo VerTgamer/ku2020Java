@@ -27,11 +27,7 @@ public class Main {
     }
 
     public static int getMaxNumber(int oneParam, int twoParam) {
-        int max = oneParam;
-        if (oneParam < twoParam) {
-            max = twoParam;
-        }
-        return max;
+        return oneParam > twoParam ? oneParam : twoParam;
     }
 
     public static boolean isCharA(char param) {
@@ -55,8 +51,7 @@ public class Main {
     }
 
     public static int codeChar(char param) {
-        int code = param;
-        return code;
+        return param;
     }
 
     public static char deCodeChar(int param) {
