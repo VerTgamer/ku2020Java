@@ -1,14 +1,20 @@
 package ru.sbrf.lesson006;
 
 public class Cat extends Animal {
-    @Override
-    public void toMakeSound() {
-        super.toMakeSound();
+
+    private ModesOfTransportation modesOfTransportationCat = new ModesOfTransportation();
+
+    public ModesOfTransportation getModesOfTransportationCat() {
+        return modesOfTransportationCat;
+    }
+
+    public void setModesOfTransportationCat(ModesOfTransportation modesOfTransportationCat) {
+        this.modesOfTransportationCat = modesOfTransportationCat;
     }
 
     @Override
-    public void move() {
-        super.move();
+    public void toMakeSound() {
+        System.out.println("Издавать звук - Мяу");
     }
 
     @Override
@@ -16,13 +22,5 @@ public class Cat extends Animal {
         super.eat();
     }
 
-    @Override
-    public void climbUpTrees() {
-        super.climbUpTrees();
-    }
 
-    @Override
-    public void toSwim() {
-        super.toSwim();
-    }
 }

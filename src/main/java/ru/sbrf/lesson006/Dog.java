@@ -1,23 +1,24 @@
 package ru.sbrf.lesson006;
 
 public class Dog extends Animal {
-    @Override
-    public void toMakeSound() {
-        super.toMakeSound();
+
+    private ModesOfTransportation modesOfTransportationDog = new ModesOfTransportation();
+
+    public ModesOfTransportation getModesOfTransportationDog() {
+        return modesOfTransportationDog;
+    }
+
+    public void setModesOfTransportationDog(ModesOfTransportation modesOfTransportationDog) {
+        this.modesOfTransportationDog = modesOfTransportationDog;
     }
 
     @Override
-    public void move() {
-        super.move();
+    public void toMakeSound() {
+        System.out.println("Издавать звук - Гав");
     }
 
     @Override
     public void eat() {
         super.eat();
-    }
-
-    @Override
-    public void toSwim() {
-        super.toSwim();
     }
 }
