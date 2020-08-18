@@ -2,11 +2,10 @@ package ru.sbrf.lesson006;
 
 public class Dog extends Animal {
 
-    private ModesOfTransportation modesOfTransportationDog = new ModesOfTransportation();
+    private ModesOfTransportAnimalDog transportDog = new ModesOfTransportAnimalDog();
 
-    public ModesOfTransportation getModesOfTransportationDog() {
-        System.out.print("По собачье - ");
-        return modesOfTransportationDog;
+    public ModesOfTransportAnimalDog getTransportDog() {
+        return transportDog;
     }
 
     @Override

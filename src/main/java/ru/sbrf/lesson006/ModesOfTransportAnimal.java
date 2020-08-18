@@ -1,6 +1,6 @@
 package ru.sbrf.lesson006;
 
-public class ModesOfTransportation {
+public class ModesOfTransportAnimal {
 
     public void move() {
         System.out.println("Двигаться");

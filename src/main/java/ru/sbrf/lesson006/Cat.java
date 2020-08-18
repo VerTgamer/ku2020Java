@@ -2,13 +2,11 @@ package ru.sbrf.lesson006;
 
 public class Cat extends Animal {
 
-    private ModesOfTransportation modesOfTransportationCat = new ModesOfTransportation();
+    private ModesOfTransportAnimalCat transportCat = new ModesOfTransportAnimalCat();
 
-    public ModesOfTransportation getModesOfTransportationCat() {
-        System.out.print("По кошачье - ");
-        return modesOfTransportationCat;
+    public ModesOfTransportAnimalCat getTransportCat() {
+        return transportCat;
     }
-
 
     @Override
     public void toMakeSound() {
