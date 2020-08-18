@@ -5,11 +5,8 @@ public class Dog extends Animal {
     private ModesOfTransportation modesOfTransportationDog = new ModesOfTransportation();
 
     public ModesOfTransportation getModesOfTransportationDog() {
+        System.out.print("По собачье - ");
         return modesOfTransportationDog;
-    }
-
-    public void setModesOfTransportationDog(ModesOfTransportation modesOfTransportationDog) {
-        this.modesOfTransportationDog = modesOfTransportationDog;
     }
 
     @Override
@@ -19,6 +16,6 @@ public class Dog extends Animal {
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("Грызть кость");
     }
 }

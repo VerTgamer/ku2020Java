@@ -5,12 +5,10 @@ public class Cat extends Animal {
     private ModesOfTransportation modesOfTransportationCat = new ModesOfTransportation();
 
     public ModesOfTransportation getModesOfTransportationCat() {
+        System.out.print("По кошачье - ");
         return modesOfTransportationCat;
     }
 
-    public void setModesOfTransportationCat(ModesOfTransportation modesOfTransportationCat) {
-        this.modesOfTransportationCat = modesOfTransportationCat;
-    }
 
     @Override
     public void toMakeSound() {
@@ -19,7 +17,7 @@ public class Cat extends Animal {
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("Пить молоко");
     }
 
 
