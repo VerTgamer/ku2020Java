@@ -9,7 +9,6 @@ public class Main {
         cat.toMakeSound();
         cat.eat();
         cat.getModesOfTransportationCat().move();
-        cat.getModesOfTransportationCat().toSwim();
         cat.getModesOfTransportationCat().climbUpTrees();
 
         System.out.println("");
