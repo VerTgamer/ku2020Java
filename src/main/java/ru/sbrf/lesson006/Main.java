@@ -1,5 +1,9 @@
 package ru.sbrf.lesson006;
 
+import ru.sbrf.lesson006.animals.Animal;
+import ru.sbrf.lesson006.animals.Cat;
+import ru.sbrf.lesson006.animals.Dog;
+
 public class Main {
     public static void main(String[] args) {
         Animal animal = new Animal();
@@ -9,27 +13,22 @@ public class Main {
         System.out.println("Возможности животного:");
         animal.toMakeSound();
         animal.eat();
-        animal.getTransportAnimal().move();
-        animal.getTransportAnimal().climbUpTrees();
-        animal.getTransportAnimal().toSwim();
+        animal.move();
 
-        System.out.println("");
+        System.out.println();
 
         System.out.println("Возможности кота: ");
         cat.toMakeSound();
         cat.eat();
-        cat.getTransportCat().move();
-        cat.getTransportCat().climbUpTrees();
-        cat.getTransportCat().toSwim();
+        cat.move();
+        cat.climbUpTrees();
 
-        System.out.println("");
+        System.out.println();
 
         System.out.println("Возможности собаки: ");
         dog.toMakeSound();
         dog.eat();
-        dog.getTransportDog().move();
-        dog.getTransportDog().climbUpTrees();
-        dog.getTransportDog().toSwim();
-
+        dog.move();
+        dog.toSwim();
     }
 }
