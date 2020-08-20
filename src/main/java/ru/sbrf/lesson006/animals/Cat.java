@@ -11,7 +11,7 @@ public class Cat implements Eat, Move, ToMakeSound, СlimbUpTrees {
     }
 
     public void move() {
-        System.out.println("Движение по собачье");
+        System.out.println("Движение по кошачье");
     }
 
     public void toMakeSound() {
