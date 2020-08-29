@@ -37,7 +37,7 @@ public class Main {
     public static boolean isCharNumber(char param) {
         return Character.isDigit(param);
     }
-
+ 
     public static void cycleBin() {
         for (int i = 0; i <= 30; i++) {
             System.out.print(Integer.toBinaryString(i) + " ");
